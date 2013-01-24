@@ -8,8 +8,8 @@ public class GameEnvironment {
 	private Map _map;
 	private String _mapFilePath;
 	private boolean _replayMode;
-	private List<RunnerDelegator> _runners;
-	private List<Integer> _charaIndexes;
-	private AudioPlayer _audioPlayer;
-	private String _bgmFilePath;
+	private List<RunnerDelegator> runners;
+	private List<Integer> charaIndexes;
+	private AudioPlayer audioPlayer;
+	private String bgmFilePath;
 }
