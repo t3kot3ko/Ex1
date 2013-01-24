@@ -1,11 +1,11 @@
 package p;
 
 public class Player {
-	private String name;
-	private int score;
+	private String _name;
+	private int _score;
 	private String _id;
 	
 	public String getUserInfo(){
-		return this.name + "(" + _id + ") : " + score;
+		return this._name + "(" + _id + ") : " + _score;
 	}
 }

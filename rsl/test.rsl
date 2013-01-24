@@ -1,0 +1,9 @@
+project := %CURRENT_PROJECT
+pkg = project.pkg("p")
+pkg.classes.toRuby.each do |c|
+c.fields.Select(By.modifier("private")).each do |f|
+  unless((f.name)[0] == "_")
+    f.rename("_" + f.name)
+  end
+end
+end
