@@ -12,4 +12,8 @@ public class GameEnvironment {
 	private List<Integer> charaIndexes;
 	private AudioPlayer audioPlayer;
 	private String bgmFilePath;
+	
+	public String m(){
+		return _map.toString() + _mapFilePath + runners.toString() + audioPlayer.toString();
+	}
 }

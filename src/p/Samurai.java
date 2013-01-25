@@ -2,5 +2,9 @@ package p;
 
 public class Samurai {
 	private CharaState _state;
-	private int _stateCount;
+	private int stateCount;
+	
+	public String m(){
+		return _state.toString() + stateCount;
+	}
 }

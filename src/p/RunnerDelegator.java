@@ -6,5 +6,9 @@ public class RunnerDelegator {
 	private int c;
 	private int d;
 	private int e;
+	
+	public int getSum(){
+		return a + b + c + d + e;
+	}
 
 }

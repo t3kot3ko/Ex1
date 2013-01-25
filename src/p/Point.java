@@ -1,13 +1,13 @@
 package p;
 
 public class Point {
-	private int _x;
-	private int _y;
+	private int x;
+	private int y;
 	
 	public int getX() {
-		return _x;
+		return x;
 	}
 	public void setX(int x) {
-		this._x = x;
+		this.x = x;
 	}
 }

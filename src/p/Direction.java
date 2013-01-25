@@ -2,7 +2,7 @@ package p;
 
 public class Direction {
 	private int _dx;
-	private int _dy;
+	private int dy;
 	private int _dz;
 	
 	public int getDx() {
@@ -13,10 +13,10 @@ public class Direction {
 	}
 	
 	public int getDy() {
-		return _dy;
+		return dy;
 	}
 	public void setDy(int dy) {
-		this._dy = dy;
+		this.dy = dy;
 	}
 	public int getDz() {
 		return _dz;

@@ -6,5 +6,9 @@ public class CharaState {
 	private int c;
 	private int _d;
 	private int e;
+	
+	public int sum(){
+		return a + _b + c + _d + e;
+	}
 
 }

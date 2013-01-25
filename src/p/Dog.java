@@ -8,4 +8,10 @@ public class Dog {
 	private int r;
 	private int s;
 	private int t;
+	private int u;
+	private int v;
+	
+	public int getSum(){
+		return p + q + r + s + t + u + v;
+	}
 }
